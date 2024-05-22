@@ -1,7 +1,7 @@
 
 ## ETL em python para monitoramento de preços
 
-Solução de uma ETL em pPython que coleta, consolida e gera insights sobre estratégias de pricing.
+Solução de um ETL em python que coleta, consolida e gera insights sobre estratégias de pricing.
 
 
 ## Arquitetura
