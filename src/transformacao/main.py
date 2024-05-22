@@ -24,7 +24,7 @@ df['new_price'] = df['new_price_reais'] + df['new_price_centavos'] / 100
 
 df.drop(columns=['old_price_reais', 'old_price_centavos', 'new_price_reais', 'new_price_centavos'], inplace=True)
 
-conn = sqlite3.connect('../data/scrapping.db')
+conn = sqlite3.connect('../data/scraping.db')
 
 df.to_sql('mercadolivre_items', conn, if_exists='replace', index=False)
 
